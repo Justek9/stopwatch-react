@@ -1,0 +1,14 @@
+@import '../styles/settings.scss';
+
+.btn {
+	background-color: $color-success;
+	color: $color-light;
+	font-family: inherit;
+	text-transform: uppercase;
+	font-weight: bold;
+	width: calc($base-size * 6);
+	height: calc($base-size * 3);
+	border-radius: $radius;
+	border: none;
+	cursor: pointer;
+}
